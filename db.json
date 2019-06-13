@@ -1,14 +1,18 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
+  "categories": [
+    { "id": 1, "title": "Food&Drinks" },
+    { "id": 2, "title": "Welness&Spa" },
+    { "id": 3, "title": "Electronic Equipment" }
+  ],
+  "mercants": [
+	{ "id": 1, "description": "", "name": "McDonalds", "image": "https://static.seekingalpha.com/uploads/2018/7/24/saupload_3000px-McDonald_27s_SVG_logo.svg.png", "categoryId": 1 },
+    { "id": 2, "description": "", "name": "Burger King", "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Burger_King_Logo.svg/1012px-Burger_King_Logo.svg.png", "categoryId": 1 }
   ],
   "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
+    { "id": 1, "body": "Comment 1", "mercantsId": 1 },
+    { "id": 2, "body": "Comment 2", "mercantsId": 1 }
   ],
-  "profile": {
-    "name": "typicode"
-  }
+  "users": [
+	{"id":1, "name": "Scopic Software", "image":"https://scopicsoftware.com/wp-content/uploads/2014/07/scopic-logo-v2-min2.png"}
+  ]
 }
